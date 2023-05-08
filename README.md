@@ -1,14 +1,27 @@
+# Task 2
+## Subtask 1 (Pisanie przypadków testowych na podstawie User Story)
+
+https://docs.google.com/spreadsheets/d/15B_kxponXvDJuRT9Ur2NUWHkwNsxYgYmJvy-sK0NoB0/edit#gid=0
+
+## Subtask 2 (Pisanie przypadków testowych na podstawie własnych doświadczeń)
+
+https://docs.google.com/spreadsheets/d/1w4nM4VuyFe33rlqD2l506WPaFX1tNcxaw4cTY2Weafc/edit#gid=0
+
+## Subtask 3 Po co piszemy test case’y?
+
+Przypadki testowe piszemy, aby dobrze rozplanować wszystko to co chcemy przetestować. Dzięki nim mamy wiekszą kontrolę nad tym co jest testowane i większą pewność, że żadna ważna funkcjonalność nie została pominięta. Przypadki testowe ułatwiają również tworzenie raportu z testów. Dobrze opisane przypadki testowe mogą być również pomocne dla całego teamu testerskiego- każda osoba, która będzie je czytać, będzie wiedziała co i jak zostało przetestowane.
+
 # Task 1
 
-### Subtask 1
+## Subtask 1
 
-8/10 punktów
+8 punktów
 
-### Subtask 3
+## Subtask 3
 
 Cześć, mam na imię Ola. Zdecydowałam się na udział w challengu, ponieważ już od jakiegoś czasu myślę o przebranżowieniu się na testera, a to wyzwanie z pewnością mi w tym pomoże. Liczę, że wzięcie udziału w tym przedsiewzięciu doda mi dodatkowej motywacji i inspiracji do samodzielnej pracy, a ukończenie go zaowocuje fajnym projektem, którym będę mogła pochwalić się w portfolio. 
 
-### Subtask 4
+## Subtask 4
 
 Testowana aplikacja jest platformą skautingową dla łowców talentów piłki nożnej. Znajduje się tu baza danych zawodników oraz informacje o ich statystykach (wygrane, przegrane), ich pozycji, drużynie. 
 W aplikacji są następujące funkcjonalności:
