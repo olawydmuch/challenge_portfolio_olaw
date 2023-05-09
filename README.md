@@ -1,3 +1,17 @@
+# Task 3
+
+## Subtask 1 (Formatka do zgłaszania błędów)
+
+https://docs.google.com/spreadsheets/d/15MGNENRVk_6UoSbtmVaFUjBIOa5s60bWrBhrS-yqOo0/edit#gid=0
+
+## Subtask 2 (Testowanie według planów testów i raportowanie błędów)
+
+https://docs.google.com/spreadsheets/d/1S52Uq8oKFw8aQkvxeRAc96_uXJGvja0tZA1Gitp-yuU/edit
+
+## Subtask 3 (Raport z wykonanych testów)
+
+https://docs.google.com/document/d/10FrAqNUED2g2QteEixXeDuzbrjEzMS6IsWJeUmGgHAA/edit
+
 # Task 2
 ## Subtask 1 (Pisanie przypadków testowych na podstawie User Story)
 
