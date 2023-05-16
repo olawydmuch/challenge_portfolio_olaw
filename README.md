@@ -1,3 +1,21 @@
+# Task 4
+
+## Subtask 1(Utworzenie formatki do zgłaszania błędów systemu)
+
+https://docs.google.com/spreadsheets/d/1WBr9Xo1XxDcdA_ZOh1VSphqnukiDetgTTx60npSo8ZA/edit?usp=share_link
+
+## Subtask 2 (Testowanie eksploracyjne i raportowanie błędów)
+
+https://docs.google.com/spreadsheets/d/1i28ax2TFhAKJHSJEqkT3xm_xIemu4t17nmkXsiB7mzU/edit?usp=share_link
+
+## Subtask 3 (Do czego służy aplikacja OLX?)
+
+1. Aplikacja OLX jest portalem ogłoszeniowym, na którym osoby fizyczne lub firmy mogą sprzedawać/oddawać/wymieniać/kupować wszelkiego rodzaju przedmioty, jak akcesoria domowe, telefony, ubrania, samochody i wiele innych. Istnieje również możliwość wyszukiwania/ dodawania ogłoszeń o dotyczących pracy, czy wynajmu mieszkań. 
+2. Użytkownikiem końcowym aplikacji jest każda osoba, która chce coś sprzedać lub oddać za darmo oraz każda osoba, która chce coś zakupić,czy pozyskać.
+3. W moim odczuciu aplikacja jest user-friendly. W łatwy, przejrzysty i intuicyjny sposób można wyszukiwać przedmioty zarówno w wyszukiwarce, jak i poprzez wybór kategorii. Na żadnym etapie korzystania z aplikacji nie miałam kłopotów z odnalezieniem, czy zrozumieniem wybranej przeze mnie funkcjonalności. Już po pierwszym otwarciu aplikacji jasnym było, do czego ona służy.
+4. W celu usprawnienia działania aplikacji poprawiłabym wykryte błędy w niedokładnym filtrowaniu.
+5. Główną różnicą między testowaniem aplikacji webowych, a natywnych jest sposób, w jaki wykonywane są testy. Aplikacje webowe tetowane są przy użyciu przeglądarki internetowej, natomiast aplikacje natywne można testować na 2 sposoby: pobierając daną aplikację na telefon komórkowy lub na symulator telefonu znajdującysię na komputerze. Kolejną różnicą jest to, że aby przetestować aplikację natywną, musimy mieć zainstalowaną aplikację na naszym urządzeniu, co wiąże się z tym, że jeśli testujemy aplikacjęna kilku urządzeniach, to za każdymrazem musi być ona instalowana. W przypadku testowania aplikacji webowych jest to nieco prostsze, ponieważ wystarczy w przeglądarkę internetową wpisać link do testowanej aplikacji. Przewagą aplikacji natywnych nad webowymi jest to, że mogą działać bez dostępu do internetu, a więc ich testy można wykonywać offline.
+
 # Task 3
 
 ## Subtask 1 (Formatka do zgłaszania błędów)
