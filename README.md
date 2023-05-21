@@ -1,3 +1,32 @@
+# Task 5 
+
+## Subtask 1 (Podstawy SQL)
+
+Poniżej przedtawiono podstawowe komendy SQL
+
+  * **SELECT** -is used to select data from a database.
+  
+        SELECT column1, column2, ...
+        FROM table_name; 
+  
+  * **WHERE**- is used to filter records.
+  
+        SELECT column1, column2, ...
+        FROM table_name
+        WHERE condition; 
+ 
+  * **ORDER BY**- is used to sort the result-set in ascending or descending order.
+
+        SELECT column1, column2, ...
+        FROM table_name
+        ORDER BY column1, column2, ... ASC|DESC; 
+        
+  * **INSERT INTO**- is used to insert new records in a table.
+
+        INSERT INTO table_name (column1, column2, column3, ...)
+        VALUES (value1, value2, value3, ...); 
+
+
 # Task 4
 
 ## Subtask 1(Utworzenie formatki do zgłaszania błędów systemu)
