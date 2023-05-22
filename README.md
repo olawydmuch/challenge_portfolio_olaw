@@ -14,8 +14,17 @@ Poniżej przedtawiono podstawowe komendy SQL
         SELECT column1, column2, ...
         FROM table_name
         WHERE condition; 
+* **AND, OR, NOT**
+	
+	The WHERE clause can be combined with AND, OR, and NOT operators.
+	
+	The AND and OR operators are used to filter records based on more than one condition:
+
+    The AND operator displays a record if all the conditions separated by AND are TRUE.
+    The OR operator displays a record if any of the conditions separated by OR is TRUE.
+    The NOT operator displays a record if the condition(s) is NOT TRUE.
  
-  * **ORDER BY**- is used to sort the result-set in ascending or descending order.
+ * **ORDER BY**- is used to sort the result-set in ascending or descending order.
 
         SELECT column1, column2, ...
         FROM table_name
@@ -30,6 +39,24 @@ Poniżej przedtawiono podstawowe komendy SQL
         SELECT column_name(s)
         FROM table_name
         WHERE column_name BETWEEN value1 AND value2; 
+  
+  * **IN Operator**- allows to specify multiple values in a WHERE clause.
+  		
+		SELECT column_name(s)
+		FROM table_name
+		WHERE column_name IN (value1, value2, ...); 
+		
+* **LIKE**- is used in a WHERE clause to search for a specified pattern in a column.
+
+		SELECT column1, column2, ...
+		FROM table_name
+		WHERE columnN LIKE pattern; 
+
+* **NULL**
+
+		SELECT column_names
+		FROM table_name
+		WHERE column_name IS NULL; 
 
 ## Subtask 3
 
@@ -65,15 +92,45 @@ Poniżej przedtawiono podstawowe komendy SQL
 
 **5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN**
 
+	SELECT*FROM actors
+	WHERE actor_id>3 AND actor_id<8
+	
+![5](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/0c85e38c-bad5-4969-b4e5-b988e12c5830)
+
 **6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
+
+	SELECT*FROM customer
+	customer_id=2 OR customer_id=4 OR customer_id=6
+
+![6](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/81e87091-3318-4ca8-a7b9-fc59fc8227dd)
 
 **7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.**
 
+	SELECT*FROM customers
+	WHERE customer_id IN ('1', '3', '5');
+	
+![7](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/0f68cc6f-0c92-4dfc-bd58-15d505e03dac)
+	
 **8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.**
+
+	SELECT * FROM actors
+	WHERE name LIKE 'An%';
+	
+![8](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/51d46e49-0dc2-4ae2-a6ee-144809fa071c)
 
 **9. Wyświetl dane klienta, który nie ma podanego adresu email.**
 
+	SELECT * FROM Customers
+	WHERE email IS NULL;
+	
+![9](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/a758c442-56c5-4beb-b6e4-1b2e64494e76)
+
 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
+
+	SELECT * FROM movies
+	WHERE price>8 AND movie_id BETWEEN 2 AND 8;
+	
+![10](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/280fa9e9-17e2-4012-9c06-057af6cf6e61)
 
 # Task 4
 
