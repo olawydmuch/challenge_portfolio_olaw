@@ -56,6 +56,13 @@ Poniżej przedtawiono podstawowe komendy SQL
 
 **4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$**
 
+    SELECT title
+	        ,price
+    FROM movies
+    WHERE price<=7
+    
+![4](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/1ea4ecd0-d520-4591-8dcb-6024e5b9a82a)
+
 **5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN**
 
 **6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.**
