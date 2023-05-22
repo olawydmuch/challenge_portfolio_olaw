@@ -30,6 +30,7 @@ Poniżej przedtawiono podstawowe komendy SQL
 
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
+![1](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/c51c95d7-4b66-40e9-b3f2-a8b5bdba39ab)
 
 **2. Wyświetl film, który powstał w 2019 roku.**
 
