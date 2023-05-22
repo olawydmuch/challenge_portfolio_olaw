@@ -25,16 +25,34 @@ Poniżej przedtawiono podstawowe komendy SQL
 
         INSERT INTO table_name (column1, column2, column3, ...)
         VALUES (value1, value2, value3, ...); 
+  * **BETWEEN**- selects values within a given range.
+  
+        SELECT column_name(s)
+        FROM table_name
+        WHERE column_name BETWEEN value1 AND value2; 
 
 ## Subtask 3
 
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
 
+    SELECT* FROM actors
+    ORDER BY surnamer;
+
 ![1](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/c51c95d7-4b66-40e9-b3f2-a8b5bdba39ab)
 
 **2. Wyświetl film, który powstał w 2019 roku.**
 
+    SELECT* FROM movies
+    WHERE year_of_production=2019;
+
+![2](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/aaf61a9e-54a9-49ff-bf24-fcfb34814d83)
+
 **3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.**
+
+    SELECT* FROM movies
+    WHERE year_of_production BETWEEN 1900 AND 1999;
+
+![3](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/ca14b42b-9f99-4cc5-9790-d9c2dc522ed6)
 
 **4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$**
 
