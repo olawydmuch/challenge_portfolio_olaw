@@ -1,3 +1,12 @@
+# Task 6
+
+## Subtask 1
+
+
+## Subtask 2
+
+14/15 pkt
+
 # Task 5 
 
 ## Subtask 1 (Podstawy SQL)
@@ -34,6 +43,7 @@ Poniżej przedtawiono podstawowe komendy SQL
 
         INSERT INTO table_name (column1, column2, column3, ...)
         VALUES (value1, value2, value3, ...); 
+	
   * **BETWEEN**- selects values within a given range.
   
         SELECT column_name(s)
