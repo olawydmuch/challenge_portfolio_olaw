@@ -80,7 +80,7 @@
 	SELECT actors.actor_id, actors.name, actors.surname, movies.title
 		FROM ((cast
 		INNER JOIN actors ON cast.actor_id=actors.actor_id)
-    		INNER JOIN movies ON cast.movie_id=movies.movie_id)
+    	INNER JOIN movies ON cast.movie_id=movies.movie_id)
 	WHERE actors.actor_id='4';
 
 ![19](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/9276b65a-28e0-4a45-9cbb-93c8bb40cae0)
