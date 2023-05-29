@@ -70,9 +70,29 @@
 
 **18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
 
+	UPDATE movies SET  price = price + 2.5  WHERE year_of_production >2000;
+	SELECT * FROM movies
+	
+![18](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/95f541b7-3b10-4394-a1f5-924c14d136f3)
+
 **19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał**
 
+	SELECT actors.actor_id, actors.name, actors.surname, movies.title
+		FROM ((cast
+		INNER JOIN actors ON cast.actor_id=actors.actor_id)
+    		INNER JOIN movies ON cast.movie_id=movies.movie_id)
+	WHERE actors.actor_id='4';
+
+![19](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/9276b65a-28e0-4a45-9cbb-93c8bb40cae0)
+
 **20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa**
+
+	INSERT INTO customers (customer_id, name, surname, email, pseudonim)
+	VALUES ('7', 'Honia', 'Stuczka-Kucharska', 'honia@mail.com', 'Hoa');
+
+	SELECT * FROM customers
+
+![20](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/0942b5b1-6231-429e-943b-97dcfec9eb37)
 
 ## Subtask 2
 
