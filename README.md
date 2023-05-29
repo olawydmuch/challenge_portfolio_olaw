@@ -38,9 +38,35 @@
 
 **15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag**
 
+	ALTER TABLE customers
+	ADD pseudonim varchar(255);
+	UPDATE customers SET pseudonim='Ols' WHERE customer_id='1';
+	UPDATE customers SET pseudonim='Kal' WHERE customer_id='2';
+	UPDATE customers SET pseudonim='Anr' WHERE customer_id='3';
+	UPDATE customers SET pseudonim='Par' WHERE customer_id='4';
+	UPDATE customers SET pseudonim='Mao' WHERE customer_id='5';
+	UPDATE customers SET pseudonim='Nag' WHERE customer_id='6';
+	SELECT * FROM customers;
+    
+![15](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/67fd9bb5-1508-409d-bcbb-15975e03545e)
+
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
+	SELECT DISTINCT movies.title
+		FROM sale
+		INNER JOIN movies
+		ON sale.movie_id=movies.movie_id;
+
+![16](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/3614a721-1971-4545-89ce-bc61fd5367bc)
+
 **17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)**
+
+	SELECT name FROM actors
+	UNION
+	SELECT name FROM customers
+	ORDER By name;
+
+![17](https://github.com/olawydmuch/challenge_portfolio_olaw/assets/131545880/bfaecae9-ec6f-487e-84c3-efecd0fabec8)
 
 **18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).**
 
